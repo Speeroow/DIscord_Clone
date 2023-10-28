@@ -6,6 +6,7 @@ import { CreateServerModel } from "@/components/models/create-server-model";
 import { InviteModel } from "../models/invite-model";
 import { EditServerModel } from "../models/edit-server-model";
 import { MembersModel } from "../models/member-model";
+import { CreateChannelModel } from "../models/create-channel-model";
 
 export const ModelProvider = () => {
   const [isMounted, setIsMounted] = useState(false);
@@ -24,6 +25,7 @@ export const ModelProvider = () => {
       <InviteModel />
       <EditServerModel />
       <MembersModel />
+      <CreateChannelModel />
     </>
   );
 };
