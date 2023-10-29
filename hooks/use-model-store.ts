@@ -7,7 +7,8 @@ export type ModelType =
   | "editServer"
   | "members"
   | "createChannel"
-  | "leaveServer";
+  | "leaveServer"
+  | "deleteServer";
 
 interface ModelData {
   server?: Server;
